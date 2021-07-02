@@ -2,7 +2,6 @@ import "./App.css";
 
 import React from "react";
 import { useState } from "react";
-import { connect } from "react-redux";
 import { RadioGroup } from "@headlessui/react";
 
 App.propTypes = {};
@@ -101,6 +100,4 @@ outline-none"
   );
 }
 
-const mapStateToProps = () => ({});
-
-export default connect(mapStateToProps, {})(App);
+export default App;
